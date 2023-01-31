@@ -1,0 +1,6 @@
+uch1=input().split(",")
+uch2=input().split(",")
+mn1=set(uch1)
+mn2=set(uch2)
+odinak = mn1.intersection(mn2)
+print (len(odinak))
